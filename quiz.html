@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushbu's Love Quiz ❤️ - Shashank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="erotic-bg">
+    <div class="hearts-container" id="heartsContainer"></div>
+    <div class="hearts-counter">Khushbu's Hearts: <span id="heartsCount">0</span> 💖</div>
+    
+    <div class="nav">
+        <a href="index.html" class="btn btn-back">⬅ Back to Journey</a>
+    </div>
+
+    <div class="quiz-container" id="quizContainer">
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <h1 class="love-title">Khushbu's Love Quiz 💕</h1>
+        <p class="quiz-subtitle">How well do you know Shashank's heart? 20 Questions</p>
+        
+        <div id="questionBox">
+            <h2 id="questionText">Click Start to begin our love test! ❤️</h2>
+            <button onclick="startQuiz()" class="btn btn-love btn-large">Start Quiz Now 💖</button>
+        </div>
+
+        <div id="quizActive" style="display:none;">
+            <div id="question"></div>
+            <div id="options"></div>
+            <button onclick="nextQuestion()" id="nextBtn" style="display:none;" class="btn btn-love">Next Question ➡️</button>
+        </div>
+
+        <div id="quizComplete" style="display:none;">
+            <h2 class="love-title">Perfect Score! 🎉</h2>
+            <p>Your hearts: <span id="finalScore"></span> 💖</p>
+            <a href="shop.html" class="btn btn-love btn-large">Spend Hearts in Love Shop 🛒</a>
+            <a href="index.html" class="btn btn-back">Back to Journey 🗺️</a>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+    <script>
+        // Quiz will load from main app.js
+    </script>
+</body>
+</html>

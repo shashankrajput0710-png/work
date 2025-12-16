@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match ❤️ - Shashank & Khushbu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="erotic-bg">
+    <div class="hearts-container" id="heartsContainer"></div>
+    <div class="hearts-counter">Khushbu's Hearts: <span id="heartsCount">0</span> 💖</div>
+    
+    <div class="nav">
+        <a href="index.html" class="btn btn-back">⬅ Back to Journey</a>
+        <a href="shop.html" class="btn btn-love">Love Shop 🛒</a>
+    </div>
+
+    <div class="game-container">
+        <h1 class="love-title">Memory Match Game 💕</h1>
+        <p class="game-subtitle">Find matching love moments! 1 heart per pair 🥰</p>
+        
+        <div class="game-stats">
+            <div>Time: <span id="timer">0</span>s</div>
+            <div>Moves: <span id="moves">0</span></div>
+            <div>Matches: <span id="matches">0</span>/8</div>
+        </div>
+
+        <div class="cards-grid" id="cardsGrid">
+            <!-- 16 cards load here -->
+        </div>
+
+        <div class="game-buttons">
+            <button onclick="newGame()" class="btn btn-love">New Game 🔄</button>
+            <a href="shop.html" class="btn btn-shop">Spend Hearts 🛒 (<span id="earnedHearts">0</span> earned)</a>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushbu's Love Shop ❤️ - Shashank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="erotic-bg">
+    <div class="hearts-container" id="heartsContainer"></div>
+    <div class="hearts-counter">Khushbu's Hearts: <span id="heartsCount">0</span> 💖</div>
+    
+    <div class="nav">
+        <a href="index.html" class="btn btn-back">⬅ Back to Journey</a>
+        <a href="quiz.html" class="btn btn-love">More Quiz Hearts ➕</a>
+    </div>
+
+    <div class="shop-container">
+        <h1 class="love-title">Khushbu's Love Shop 🛒</h1>
+        <p class="shop-subtitle">Spend your hearts on Shashank's love! 💕</p>
+        
+        <div class="hearts-display">Available: <span id="currentHearts">0</span> 💖</div>
+        
+        <div class="shop-items" id="shopItems">
+            <!-- Rewards will load here -->
+        </div>
+
+        <div id="finale" style="display:none;">
+            <h2 class="love-title">Life with Shashank 💍</h2>
+            <p class="finale-text">All your hearts spent = Forever love unlocked! 🥰</p>
+            <div class="finale-gift">
+                <video autoplay loop muted style="width:100%; border-radius:20px;">
+                    <source src="assets/life-together.mp4" type="video/mp4">
+                </video>
+            </div>
+            <p>Shashank & Khushbu - Forever Together ❤️</p>
+        </div>
+    </div>
+
+    <!-- Popups -->
+    <div class="popup" id="kissPopup">
+        <div class="popup-content">
+            <h3>🍑 Kisses Unlocked! 😘</h3>
+            <p>Shashank's 10 special kisses for Khushbu 💋</p>
+            <div class="kiss-animation">💋💋💋💋💋</div>
+            <button onclick="closePopup('kissPopup')" class="btn">More Kisses? 😍</button>
+        </div>
+    </div>
+
+    <div class="popup" id="hugPopup">
+        <div class="popup-content">
+            <h3>🤗 Warm Hugs! 🥰</h3>
+            <p>Shashank's tight embrace for his jaan 💕</p>
+            <div class="hug-animation">🤗🤗🤗🤗🤗</div>
+            <button onclick="closePopup('hugPopup')" class="btn">Hug Again! ❤️</button>
+        </div>
+    </div>
+
+    <div class="popup" id="bangPopup">
+        <div class="popup-content">
+            <h3>🔥 Bang Bang Time! 😈</h3>
+            <p>3 intimate positions for Khushbu & Shashank 💦</p>
+            <div class="positions">
+                <div>1️⃣ Missionary (Classic love) 💕</div>
+                <div>2️⃣ Spooning (Cozy intimacy) 🥄</div>
+                <div>3️⃣ Cowgirl (Khushbu on top!) 👑</div>
+            </div>
+            <button onclick="closePopup('bangPopup')" class="btn">Try Tonight? 🔥</button>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
